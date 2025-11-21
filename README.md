@@ -11,15 +11,24 @@ EMODB (German) includes 535 utterances by 10 professional speakers (5 men and 5 
 
 # Speech proprecessing
 
-preprocess  (IEMOCAP)
+All audio clips are resampled to 16 kHz.
 
-pro_CASIA (CASIA)
+The exact train/validation/test splits used in our paper are fully provided in:
 
-pro_EMODB (EMODB)
+1. IEMOCAP     -preprocess  / 
+
+2. CASIA       -pro_CASIA /
+
+3. EMODB      -pro_EMODB /
+
+Note: The dataset split is random. Running the script will produce different splits,
+but the splitting procedure is identical to our experimental setting.
 
 # Model
 
-Other code will be publicly available.
+The full model implementation will be released after the review process.
+
+Currently, we provide dataset splits and preprocessing steps to ensure reproducibility without revealing proprietary components.
 
 The required libraries and their version:
 
