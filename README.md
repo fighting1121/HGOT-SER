@@ -13,6 +13,8 @@ EMODB (German) includes 535 utterances by 10 professional speakers (5 men and 5 
 
 All audio clips are resampled to 16 kHz.
 
+All experiments adopt a 5-fold cross-validation to evaluate the model's generalization ability and mitigate overfitting.
+
 The exact train/validation/test splits used in our paper are fully provided in:
 
 1. IEMOCAP     - preprocess  / 
