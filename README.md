@@ -5,7 +5,7 @@ preprocess  (IEMOCAP)
 
 pro_CASIA (CASIA)
 
-
+pro_EMODB (EMODB)
 Other code will be publicly available.
 
 The required libraries and their version:
